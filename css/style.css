@@ -18,7 +18,11 @@
   color: blue;
   font-size: 20px;
   font-weight: bold;
+}
 
+.absolute {
+  display: inline-block;
+  width: 50%;
 }
 
 .title {
@@ -27,24 +31,13 @@
 }
 
 .about-box {
-  height: 200px;
-  width: 800px;
+  height: 150px;
+  width: 700px;
   background-color: blue;
 }
 
-main {
-  position: relative;
-  top: 300px;
-  left: 0px;
-}
-
-.absolute {
-  position: absolute;
-  top: -110%;
-  left: auto 0;
-}
-
 .img {
-  width: 60%;
-  display: block;
+  margin-left: 0px;
+  width: 100%;
 }
+
